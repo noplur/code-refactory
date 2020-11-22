@@ -4,9 +4,14 @@
     margin: 0;
 }
 
+    /* styling for body section */
+
 body {
     background-color: #d9dcd6;
 }
+
+
+    /* styling for header section */
 
 .header {
     padding: 20px;
@@ -14,18 +19,23 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+.header h1, .seo {
+    font-size: 48px;
+}
 .header h1 {
     display: inline-block;
-    font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
-    font-size: 48px;
 }
 
-.header div {
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,31 +44,25 @@ body {
     color: #d9dcd6;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
     color: #ffffff;
     text-decoration: none;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
+/* start of hero styling */
 
-p {
-    font-size: 16px;
-}
-
-.hero {
-    width: 100%;
+.hero img{  
     margin-bottom: 25px;
+    height: 990px;
+    width: 100%;
     background-size: cover;
     background-position: center;
 }
-.hero img {
-    max-height: 990px;
-}
+
+/* start of content styling */
+
 .content {
     width: 75%;
     display: inline-block;
@@ -92,6 +96,8 @@ p {
     font-size: 36px;
 }
 
+/*  start of benefits styling */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -109,7 +115,6 @@ p {
 }
 
 .benefit-info h3 {
-    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -118,6 +123,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* start of footer styling */
 
 .footer {
     padding: 30px;
