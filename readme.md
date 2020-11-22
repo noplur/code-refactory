@@ -5,4 +5,7 @@
 ### GitHub repository can be viewed here: http://https://github.com/noplur/code-refactory
 ### The link to the website with the refactored code can be viewed here: https://noplur.github.io/code-refactory/
 
-### Here are screenshots of the refactored website: ![](./assets/images/screenshot_1.png)
+### Here are screenshots of the refactored website: 
+### ![](./assets/images/screenshot_1.png)
+### ![](./assets/images/screenshot_2.png)
+### ![](./assets/images/screenshot_3.png)
